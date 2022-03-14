@@ -9,7 +9,13 @@ import SwiftUI
 
 struct DashboardScreen: View {
     var body: some View {
-        Text("DashboardScreen")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: TaskScreen()) {
+                    Text("Go to TaskScreen")
+                }
+            }
+        }
     }
 }
 

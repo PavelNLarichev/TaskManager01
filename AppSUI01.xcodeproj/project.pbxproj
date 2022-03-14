@@ -59,8 +59,8 @@
 			children = (
 				CCF0A02427DC7ADF001001A6 /* AppSUI01App.swift */,
 				CCF0A02627DC7ADF001001A6 /* ContentView.swift */,
-				CCF0A03427DC7D2B001001A6 /* TaskScreen.swift */,
 				CCF0A03227DC7CDC001001A6 /* DashboardScreen.swift */,
+				CCF0A03427DC7D2B001001A6 /* TaskScreen.swift */,
 				CCF0A03627DC7D42001001A6 /* ProfileScreen.swift */,
 				CCF0A02827DC7AE2001001A6 /* Assets.xcassets */,
 				CCF0A02A27DC7AE2001001A6 /* Preview Content */,

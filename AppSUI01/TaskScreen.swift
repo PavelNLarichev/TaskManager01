@@ -39,6 +39,8 @@ struct TaskScreen: View {
                 
                 List {
                     TaskCell()
+                    TaskCell()
+                    TaskCell()
                 }
                 
             }
@@ -47,6 +49,10 @@ struct TaskScreen: View {
         }
     }
 }
+
+
+
+
 
 struct TaskCell: View {
     var body: some View {
