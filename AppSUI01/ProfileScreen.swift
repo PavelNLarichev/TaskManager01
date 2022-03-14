@@ -16,21 +16,12 @@ final class ProfileViewModel: ObservableObject {
 struct ProfileScreen: View {
     
     @State var isNavigate: Bool = false
-
+    
     var body: some View {
         NavigationView {
             VStack {
                 Text("ProfileScreen")
-//                Spacer()
-//                Button {
-//                    isNavigate.toggle()
-//                } label: {
-//                    Text("Navigation Button")
-//                        .padding()
-//                        .foregroundColor(.white)
-//                        .background(Color.gray)
-//
-//                }
+                
                 Divider()
                 
                 PersonInfoView(isNavigate: $isNavigate)
@@ -49,35 +40,7 @@ struct ProfileScreen: View {
         
         var body: some View {
             ScrollView {
-//                NavigationLink(
-//                    destination: Text("Destination"),
-//                    //isActive: $isNavigate,
-//                    label: {
-//                        Text("Navigate")
-//                    })
-//                Spacer()
-//                    .frame(height: 200)
-//                ScrollView(.horizontal) {
-//                    HStack(spacing: -2) {
-//                        Group{
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                            Image(systemName: "lasso")
-//                        }
-//                        Image(systemName: "lasso")
-//                        Image(systemName: "lasso")
-//                    }.font(.largeTitle)
-//
-//                }
-//                .padding(.vertical, 20)
-//                Spacer().frame(height: 100)
+                
                 Image(systemName: "info.circle")
                     .font(.largeTitle)
                 //вызвали модалку
